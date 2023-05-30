@@ -1,0 +1,36 @@
+
+/*
+  Body
+*/
+body {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Dark */
+body {
+  background-color: #141212;
+}
+
+/* Light */
+/*
+body {
+  background-color: #F0F0F0;
+}
+*/
+
+
+/*
+  Fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Inter:wght@400;600&family=Raleway:wght@400;600&display=swap');
+
+/* Inter */
+/* font-family: 'Inter', sans-serif; */
+
+/* Raleway */
+/* font-family: 'Raleway', sans-serif; */
+
+/* Goldman */
+/* font-family: 'Goldman', cursive; */
