@@ -1,2 +1,13 @@
 @import url(general.css);
 @import url(menu.css);
+
+body {
+  background: linear-gradient(#1412124e, #1412124e), url("../Images/cliff.png");
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+

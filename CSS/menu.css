@@ -1,0 +1,231 @@
+/*
+  Top navigation bar (white)
+*/
+
+.navbar {
+  background-color: #141212;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 30px;
+  z-index: 100;
+}
+
+.navigation {
+  height: 100%;
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  overflow: hidden;
+  background-color: #141212;
+  float: left;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: none;
+}
+
+.title_wrapper {
+  position: relative;
+  width: 200px;
+  margin: 40px auto 60px auto;
+  padding: 5px;
+}
+
+.title_wrapper::before,
+.title_wrapper::after {
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  content: "";
+}
+
+.title_wrapper::before {
+  top: 0;
+  left: 0;
+  border-top-left-radius: 10px;
+  border-top: 4px solid #381F57;
+  border-left: 4px solid #381F57;
+}
+
+.title_wrapper::after {
+  right: 0;
+  bottom: 0;
+  border-bottom-right-radius: 10px;
+  border-right: 4px solid #FFE999;
+  border-bottom: 4px solid #FFE999;
+}
+
+.title {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin: 7px 0;
+}
+
+.menu {
+  margin-right: 40px;
+}
+
+.menu li {
+  font-family: 'Inter', sans-serif;
+  margin: auto 20px auto 0;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 25px 50px 25px 50px;
+  color: #ffffff;
+}
+
+.fa-solid {
+  margin-right: 30px;
+  color: #FFE999;
+  display: flex;
+}
+
+.fa-user {
+  margin-right: 35px;
+}
+
+.fa-solid, .menu a {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu li:hover {
+  transition: 0.5s ease-in-out;
+  transform-origin: left;
+  border-radius: 10px;
+}
+
+.menu a:hover {
+  border-radius: 10px;
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+  transform-origin: left;
+}
+
+/*Media querries for menu (For mobile)*/
+/*
+@media (max-width: 799px) {
+  .navbar {
+    padding: 0 10px 0 10px;
+  }
+}*/
+
+.icon {
+  cursor: pointer;
+  float: right;
+  padding: 35px 20px 35px 20px;
+}
+
+.burger_background {
+  position: relative;
+  margin: 0 0 0 -60px;
+  padding: 60px 120px 60px 60px;
+  background-color: #141212;
+  border-bottom-right-radius: 100px;
+}
+
+.burgerline {
+  background: #ffffff;
+  margin: 50px 60px 0 -60px;
+  display: block;
+  height: 4px;
+  position: absolute;
+  width: 35px;
+  border-radius: 10px;
+  top: 0;
+  left: 20px;
+}
+
+.burgerline::before,
+.burgerline::after {
+  background:#ffffff;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+}
+
+.burgerline::before {
+  border-radius: 10px;
+  width: 50px;
+}
+
+.burgerline::after {
+  border-radius: 10px;
+  width: 65px;
+}
+
+/*Media querries for the menu burgerlines*/
+@media (max-width: 799px) {
+  .burgerline {
+    height: 7px;
+    top: 0;
+    margin-left: 75px;
+  }
+
+  .burgerline::before {
+    top: 20px;
+  }
+
+  .burgerline::after {
+    top: -20px;
+  }
+}
+
+.burgermenu {
+  display: none;
+}
+
+.burgermenu:checked ~ nav {
+  max-height: 100%;
+}
+
+.burgermenu:checked ~ .icon .burgerline {
+  background: transparent;
+}
+
+.burgermenu:checked ~ .icon .burgerline::before {
+  transform: rotate(-45deg);
+  width: 65px;
+  top: 0;
+  left: -10px;
+}
+
+.burgermenu:checked ~ .icon .burgerline::after {
+  transform: rotate(45deg);
+  width: 65px;
+  top: 0;
+  left: -10px;
+}
+
+/*Media querries for menu change with width*/
+@media (min-width: 800px) {
+  .navigation {
+    display: block;
+  }
+
+  .menu li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .menu a:hover {
+    background-color: transparent;
+  }
+
+  .icon {
+    display: none;
+  }
+}

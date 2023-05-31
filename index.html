@@ -6,24 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="This is the first page of the website">
   <title>Home page</title>
+  <meta name="description" 
+  content="This is my portfolio, containing information about me and my projects">
+
+  <script src="https://kit.fontawesome.com/26fd6b155e.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="CSS/home.css">
   <script defer src="Javascript/home.js"></script>
 </head>
 <body class="dark light">
   <header class="navbar">
-    <h1 class="title">Portfolio</h1>
-
-    <input class="burgermenu" type="checkbox" id="burgermenu"/>
-    <label class="icon" for="burgermenu"><span class="burgerline"></span></label>
+    <div class="burger_background">
+      <input class="burgermenu" type="checkbox" id="burgermenu"/>
+      <label class="icon" for="burgermenu"><span class="burgerline"></span></label>
+    </div>
 
     <nav class="navigation">
+      <div class="title_wrapper">
+        <h1 class="title">Portfolio</h1>
+      </div>
+      
       <ul class="menu">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Skillset</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href=""><i class="fa-sharp fa-solid fa-house"></i> Home</a></li>
+        <li><a href=""><i class="fa-solid fa-user"></i> About</a></li>
+        <li><a href=""><i class="fa-solid fa-briefcase"></i> Projects</a></li>
+        <li><a href=""><i class="fa-solid fa-bars-staggered"></i> Skillset</a></li>
+        <li><a href=""><i class="fa-solid fa-message"></i> Contact</a></li>
       </ul>
     </nav>
   </header>
