@@ -181,9 +181,7 @@
 }
 
 .burgermenu:checked ~ .navigation {
-  max-width: 300px;
   left: 0;
-  transition: left 0.3s ease-in-out;
 }
 
 .burgermenu:checked ~ .icon .burgerline {
@@ -207,9 +205,7 @@
 /* Media queries for menu change with width */
 @media (min-width: 800px) {
   .navigation {
-    display: block;
     left: 0;
-    width: 300px;
   }
 
   .menu li {
