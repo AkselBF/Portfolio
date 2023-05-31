@@ -1,3 +1,4 @@
+
 /*
   Top navigation bar (white)
 */
@@ -8,8 +9,9 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 30px;
+  width: 20px;
   z-index: 100;
+  transition: width 0.3s ease-in-out;
 }
 
 .navigation {
@@ -22,9 +24,9 @@
   background-color: #141212;
   float: left;
   top: 0;
-  left: 0;
+  left: -300px;
   z-index: 100;
-  display: none;
+  transition: left 0.3s ease-in-out;
 }
 
 .title_wrapper {
@@ -92,7 +94,8 @@
   margin-right: 35px;
 }
 
-.fa-solid, .menu a {
+.fa-solid,
+.menu a {
   display: flex;
   flex-direction: row;
 }
@@ -110,30 +113,21 @@
   transform-origin: left;
 }
 
-/*Media querries for menu (For mobile)*/
-/*
-@media (max-width: 799px) {
-  .navbar {
-    padding: 0 10px 0 10px;
-  }
-}*/
-
 .icon {
   cursor: pointer;
-  float: right;
-  padding: 35px 20px 35px 20px;
-}
-
-.burger_background {
-  position: relative;
-  margin: 0 0 0 -60px;
+  float: left;
   padding: 60px 120px 60px 60px;
   background-color: #141212;
   border-bottom-right-radius: 100px;
 }
 
+.burger_background {
+  position: relative;
+  margin: 0 0 0 -60px;
+}
+
 .burgerline {
-  background: #ffffff;
+  background: #FFE999;
   margin: 50px 60px 0 -60px;
   display: block;
   height: 4px;
@@ -141,18 +135,18 @@
   width: 35px;
   border-radius: 10px;
   top: 0;
-  left: 20px;
+  left: 10px;
 }
 
 .burgerline::before,
 .burgerline::after {
-  background:#ffffff;
+  background: #FFE999;
   content: "";
   display: block;
   width: 100%;
   height: 100%;
   position: absolute;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .burgerline::before {
@@ -165,7 +159,7 @@
   width: 65px;
 }
 
-/*Media querries for the menu burgerlines*/
+/* Media queries for the menu burger lines */
 @media (max-width: 799px) {
   .burgerline {
     height: 7px;
@@ -186,8 +180,10 @@
   display: none;
 }
 
-.burgermenu:checked ~ nav {
-  max-height: 100%;
+.burgermenu:checked ~ .navigation {
+  max-width: 300px;
+  left: 0;
+  transition: left 0.3s ease-in-out;
 }
 
 .burgermenu:checked ~ .icon .burgerline {
@@ -208,24 +204,25 @@
   left: -10px;
 }
 
-/*Media querries for menu change with width*/
+/* Media queries for menu change with width */
 @media (min-width: 800px) {
   .navigation {
     display: block;
+    left: 0;
+    width: 300px;
   }
 
   .menu li {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    list-style-type: none;
-  }
-
-  .menu a:hover {
-    background-color: transparent;
+    display: block;
+    margin: 20px auto;
   }
 
   .icon {
     display: none;
   }
+
+  .burgermenu {
+    display: none;
+  }
 }
+

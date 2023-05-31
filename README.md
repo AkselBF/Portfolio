@@ -1,9 +1,17 @@
-# for h1
+# Portfolio
 
-## for h2
+## A collection of my previous projects, big or small.
 
-### for h3
+My portfolio contains several types of projects I'm proud of, big or small. 
+There are namely three types of projects:
 
-normal text
+* Frontend: Coding, websites, usually made in Clip Studio Code
+* Gaming: video games made in game engines such as Unity or Game Maker
+* Digital art: Paintings, models made in Clip Studio Paint
 
-* for lists
+There are five pages in my portfolio:
+* Home
+* About
+* Projects
+* Skillset
+* Contact
