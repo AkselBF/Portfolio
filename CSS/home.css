@@ -1,13 +1,50 @@
 @import url(general.css);
 @import url(menu.css);
 
+/* Different menu color */
+.navbar, .navigation {
+  background-color: #141212;
+}
+
 body {
-  background: linear-gradient(#1412124e, #1412124e), url("../Images/cliff.png");
+  background: linear-gradient(#1412126b, #1412126b), url("../Images/cliff.png");
   overflow: hidden;
   width: 100vw;
   height: 100vh;
-  background-size: cover;
   background-repeat: no-repeat;
-  object-fit: cover;
+  background-size: cover;
 }
 
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu .menu_active {
+  font-weight: 600;
+  color: #FFE999;
+}
+
+
+/*
+  Texts
+*/
+
+.main, .desc, .text {
+  color: #ffffff;
+  float: right;
+}
+
+.main_name {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.desc {
+  width: 200px;
+}
+
+.text {
+  width: 200px;
+}
