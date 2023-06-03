@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is the first page of the website">
+  <title>Projects page</title>
+  <meta name="description" 
+  content="Page containing all of my projects of any type">
+
+  <script src="https://kit.fontawesome.com/26fd6b155e.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../CSS/projects.css">
+  <!--<script defer src="../Javascript/projects.js"></script>-->
+  <script defer src="../Javascript/menu.js"></script>
+</head>
+<body class="dark light">
+  <header class="navbar">
+    <div class="burger_background">
+      <input class="burgermenu" type="checkbox" id="burgermenu"/>
+      <label class="icon" for="burgermenu"><span class="burgerline"></span></label>
+    </div>
+
+    <nav class="navigation">
+      <div class="title_wrapper">
+        <h1 class="title">Portfolio</h1>
+      </div>
+      
+      <ul class="menu">
+        <li><a href="../index.html"><i class="fa-sharp fa-solid fa-house"></i> Home</a></li>
+        <li><a href="../HTML/about.html"><i class="fa-solid fa-user"></i> About</a></li>
+        <li><a href="" class="menu_active"><i class="fa-solid fa-briefcase"></i> Projects</a></li>
+        <li><a href="../HTML/skillset.html"><i class="fa-solid fa-bars-staggered"></i> Skillset</a></li>
+        <li><a href="../HTML/contact.html"><i class="fa-solid fa-message"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Top text -->
+    <div class="projects_text">
+      <div class="title">
+        <h1 class="projects_title">My projects</h1>
+        <div class="title_line1"></div>
+        <div class="title_line2"></div>
+      </div>
+
+      <!-- Dark mode/Light mode button -->
+      <button class="dark_light">
+        <i class="fa-solid fa-sun fa-2xl"></i>
+        <!-- <i class="fa-solid fa-moon fa-flip-horizontal"></i> -->
+      </button>
+
+      <p class="text">
+        As mentioned in my skillset page, I work mainly with Three 
+        types of fields.
+      </p>
+
+      <ul class="text">
+        <li>Frontend development</li>
+        <li>Game development</li>
+        <li>Digital art</li>
+      </ul>
+
+      <p class="text">
+        Bellow, are several projects either focusing on one of those 
+        skills specifically, or combining some of them. 
+      </p>
+    </div>
+
+    <div class="top_line"></div>
+
+    <!--
+      My listed projects
+    -->
+    <div class="projects_list"></div>
+  </main>
+</body>
+</html>

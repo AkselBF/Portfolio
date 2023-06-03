@@ -1,2 +1,76 @@
 @import url(general.css);
 @import url(menu.css);
+@import url(layout.css);
+
+/* Colors */
+p, li {
+  color: #ffffff;
+  font-family: "inter", sans-serif;
+}
+
+.projects_text {
+  background: linear-gradient(#8E0D5A 70%, #141212);
+}
+
+
+/*
+  Dark and light button
+*/
+.dark_light {
+  position: absolute;
+  justify-content: center;
+  vertical-align: middle;
+  top: 30px;
+  right: 30px;
+  float: right;
+  width: 60px;
+  height: 60px;
+  border-radius: 300px;
+  background-color: #F0F0F0;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.fa-sun {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  font-size: 46px;
+  color: #FF6E1D;
+}
+
+
+/* Title */
+.projects_title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+
+/* Title lines */
+.title_line1 {
+  width: 80px;
+  margin-bottom: 5px;
+}
+
+.title_line1::after {
+  content: " ";
+  display: block;
+  border-bottom: 4px solid #FFE999;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.title_line2 {
+  width: 50px;
+  margin-bottom: 40px;
+}
+
+.title_line2::after {
+  content: " ";
+  display: block;
+  border-bottom: 3px solid #FFDE68;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}

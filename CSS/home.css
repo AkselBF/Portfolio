@@ -32,13 +32,8 @@ main {
 
 
 /* Different menu color */
-.navbar, .navigation {
+.navbar, .navigation, .icon {
   background-color: #141212;
-}
-
-.menu .menu_active {
-  font-weight: 600;
-  color: #FFE999;
 }
 
 

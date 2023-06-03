@@ -1,0 +1,30 @@
+
+/*
+  Main section for all but home
+*/
+
+main {
+  width: 75%;
+  margin: 120px auto auto auto;
+}
+
+/* Media querries for layout */
+@media (min-width: 800px) {
+  body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas: "header main";
+  }
+  
+  header {
+    grid-area: header;
+  }
+  
+  main {
+    grid-area: main;
+    padding: 20px;
+    position: relative;
+  }
+}
