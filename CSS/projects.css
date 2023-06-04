@@ -8,8 +8,17 @@ p, li {
   font-family: "inter", sans-serif;
 }
 
+main {
+  width: 100%;
+  margin: -10px 0 0 0;
+  padding: 0;
+}
+
 .projects_text {
-  background: linear-gradient(#8E0D5A 70%, #141212);
+  padding-top: 10px;
+  padding-right: 10px;
+  width: 100%;
+  background: linear-gradient(#8E0D5A, #141212);
 }
 
 
@@ -44,7 +53,8 @@ p, li {
 /* Title */
 .projects_title {
   font-weight: 600;
-  margin-bottom: 10px;
+  margin: 140px auto 10px auto;
+  width: 76%;
 }
 
 
@@ -52,6 +62,7 @@ p, li {
 .title_line1 {
   width: 80px;
   margin-bottom: 5px;
+  margin-left: 12%;
 }
 
 .title_line1::after {
@@ -65,6 +76,7 @@ p, li {
 .title_line2 {
   width: 50px;
   margin-bottom: 40px;
+  margin-left: 12%;
 }
 
 .title_line2::after {
@@ -73,4 +85,62 @@ p, li {
   border-bottom: 3px solid #FFDE68;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
+}
+
+
+/*
+  texts beneath title
+*/
+.text {
+  width: 76%;
+  margin: 10px auto;
+  line-height: 1.6em;
+}
+
+#second_text {
+  margin: 40px auto 100px auto;
+}
+
+
+/* Media querries for background and text */
+@media (min-width: 800px) {
+  main {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .projects_text {
+    padding-right: 0;
+  }
+
+  .projects_title {
+    font-weight: 600;
+    margin: 40px auto 10px auto;
+    width: 90%;
+  }
+
+  .title_line1 {
+    margin-left: 5%;
+  }
+
+  .title_line2 {
+    margin-left: 5%;
+  }
+
+  .text {
+    width: 40%;
+  }
+}
+
+
+.top_line {
+  width: 50%;
+  margin: 10px auto 60px auto;
+}
+
+.top_line::after {
+  content: " ";
+  display: block;
+  border-bottom: 3px solid #454545;
+  border-radius: 30px;
 }
