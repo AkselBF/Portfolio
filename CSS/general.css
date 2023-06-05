@@ -44,6 +44,10 @@ h1, h2, h3, p, a {
   font-family: 'Inter', sans-serif;
 }
 
+p {
+  line-height: 1.6em;
+}
+
 a {
   text-decoration: none;
 }

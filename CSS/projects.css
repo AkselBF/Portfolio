@@ -94,7 +94,6 @@ main {
 .text {
   width: 76%;
   margin: 10px auto;
-  line-height: 1.6em;
 }
 
 #second_text {
@@ -152,14 +151,49 @@ main {
 .projects_list {
   padding-top: 20px;
   width: 100%;
+  margin-bottom: 100px;
 }
 
 .project {
   width: 40%;
-  margin: auto;
+  margin: 10px auto;
 }
 
 .fa-droplet {
   margin: auto;
   justify-content: center;
+}
+
+.project_title {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  margin: 40px auto 50px auto;
+}
+
+.project_image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.github_link {
+  color: #ffffff;
+  background-color: #0DB6FF;
+  margin-top: 20px;
+  padding: 5px 30px;
+  float: right;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.project_line {
+  width: 30%;
+  margin: 120px auto 30px auto;
+}
+
+.project_line::after {
+  content: " ";
+  display: block;
+  border-bottom: 3px solid #454545;
+  border-radius: 30px;
 }
