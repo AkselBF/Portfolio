@@ -155,11 +155,11 @@ main {
 }
 
 .project {
-  width: 40%;
+  width: 70%;
   margin: 10px auto;
 }
 
-.fa-droplet {
+.fa-droplet, .fa-atom, .fa-gamepad {
   margin: auto;
   justify-content: center;
 }
@@ -187,8 +187,8 @@ main {
 }
 
 .project_line {
-  width: 30%;
-  margin: 120px auto 30px auto;
+  width: 40%;
+  margin: 120px auto 80px auto;
 }
 
 .project_line::after {
@@ -196,4 +196,24 @@ main {
   display: block;
   border-bottom: 3px solid #454545;
   border-radius: 30px;
+}
+
+@media (min-width: 800px) {
+  .project {
+    width: 60%;
+  }
+
+  .project_line {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project {
+    width: 40%;
+  }
+
+  .project_line {
+    width: 30%;
+  }
 }
