@@ -40,6 +40,10 @@ body {
   Font styles
 */
 
-h1, h2, h3, p {
+h1, h2, h3, p, a {
   font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }

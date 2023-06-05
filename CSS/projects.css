@@ -144,3 +144,22 @@ main {
   border-bottom: 3px solid #454545;
   border-radius: 30px;
 }
+
+
+/*
+  Projects
+*/
+.projects_list {
+  padding-top: 20px;
+  width: 100%;
+}
+
+.project {
+  width: 40%;
+  margin: auto;
+}
+
+.fa-droplet {
+  margin: auto;
+  justify-content: center;
+}
