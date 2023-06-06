@@ -28,3 +28,89 @@ main {
     position: relative;
   }
 }
+
+
+/*
+  Top titles and other elements all pages have in common
+*/
+
+/* Title */
+.page_title {
+  font-weight: 600;
+  margin: 140px auto 10px auto;
+  width: 76%;
+}
+
+
+/* Title lines */
+.title_line1 {
+  width: 80px;
+  margin-bottom: 5px;
+  margin-left: 12%;
+}
+
+.title_line1::after {
+  content: " ";
+  display: block;
+  border-bottom: 4px solid #FFE999;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.title_line2 {
+  width: 50px;
+  margin-bottom: 40px;
+  margin-left: 12%;
+}
+
+.title_line2::after {
+  content: " ";
+  display: block;
+  border-bottom: 3px solid #FFDE68;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+@media (min-width: 800px) {
+  .page_title {
+    font-weight: 600;
+    margin: 40px auto 10px auto;
+    width: 90%;
+  }
+
+  .title_line1 {
+    margin-left: 5%;
+  }
+
+  .title_line2 {
+    margin-left: 5%;
+  }
+}
+
+
+/*
+  Dark and light button
+*/
+.dark_light {
+  position: absolute;
+  justify-content: center;
+  vertical-align: middle;
+  top: 30px;
+  right: 30px;
+  float: right;
+  width: 60px;
+  height: 60px;
+  border-radius: 300px;
+  background-color: #F0F0F0;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.fa-sun {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  font-size: 46px;
+  color: #FF6E1D;
+}

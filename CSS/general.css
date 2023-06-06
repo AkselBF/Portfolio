@@ -20,6 +20,10 @@ body {
 }
 */
 
+/*
+  Main 
+*/
+
 
 /*
   Fonts
@@ -44,8 +48,13 @@ h1, h2, h3, p, a {
   font-family: 'Inter', sans-serif;
 }
 
-p {
+p, li {
   line-height: 1.6em;
+}
+
+p, li {
+  color: #ffffff;
+  font-family: "inter", sans-serif;
 }
 
 a {

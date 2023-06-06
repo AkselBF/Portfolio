@@ -1,2 +1,30 @@
 @import url(general.css);
 @import url(menu.css);
+@import url(layout.css);
+
+main {
+  width: 100%;
+  margin: -10px 0 0 0;
+  padding: 0;
+}
+
+/* Colors */
+h2 {
+  color: #ffffff;
+}
+
+/* Logo adjust */
+.skillset_text {
+  padding-top: 20px;
+}
+
+@media (min-width: 800px) {
+  .skillset_text .dark_light {
+    margin-top: 10px;
+  }
+}
+
+
+/*
+  Text setup
+*/

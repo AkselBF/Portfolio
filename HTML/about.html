@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Page describing me and what I do">
+  <title>About page</title>
+
+  <script src="https://kit.fontawesome.com/26fd6b155e.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../CSS/about.css">
+  <!--<script defer src="../Javascript/projects.js"></script>-->
+  <script defer src="../Javascript/menu.js"></script>
+</head>
+<body class="dark light">
+  <header class="navbar">
+    <div class="burger_background">
+      <input class="burgermenu" type="checkbox" id="burgermenu"/>
+      <label class="icon" for="burgermenu"><span class="burgerline"></span></label>
+    </div>
+
+    <nav class="navigation">
+      <div class="title_wrapper">
+        <h1 class="title">Portfolio</h1>
+      </div>
+      
+      <ul class="menu">
+        <li><a href="../index.html"><i class="fa-sharp fa-solid fa-house"></i> Home</a></li>
+        <li><a href="" class="menu_active"><i class="fa-solid fa-user"></i> About</a></li>
+        <li><a href="../HTML/projects.html"><i class="fa-solid fa-briefcase"></i> Projects</a></li>
+        <li><a href="../HTML/skillset.html"><i class="fa-solid fa-bars-staggered"></i> Skillset</a></li>
+        <li><a href="../HTML/contact.html"><i class="fa-solid fa-message"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="about">
+      <div class="title">
+        <h1 class="page_title">My projects</h1>
+        <div class="title_line1"></div>
+        <div class="title_line2"></div>
+      </div>
+  
+      <!-- Dark mode/Light mode button -->
+      <button class="dark_light">
+        <i class="fa-solid fa-sun fa-2xl"></i>
+        <!-- <i class="fa-solid fa-moon fa-flip-horizontal"></i> -->
+      </button>
+  
+      <div class="about_text">
+        <h3 class="text_name">
+          I am Aksel Boutroue-Faret, a frontend developper
+        </h3>
+        <p class="text_desc">
+          Though I say I'm a frontend developper, I'm also an artist and am potentially aiming 
+          to become a game developper to add on top of it. In this portfolio, are my work and 
+          projects, hopefully making fellow, more experienced developpers this peeks 
+          their interest. 
+        </p>
+      </div>
+    </div>
+
+    <!--
+      skills
+    -->
+    <div class="about_sections">
+      <div class="about_data">
+        <ul class="data_lists">
+          <li class="list">
+            <p class="list_name">Birthday: </p>
+            <p class="name_text">13/09/1998</p>
+          </li>
+          <li class="list">
+            <p class="list_name">Age: </p>
+            <p class="name_text">24</p>
+          </li>
+          <li class="list">
+            <p class="list_name">E-mail: </p>
+            <p class="name_text">aksel.boutrouefaret@yahoo.com</p>
+          </li>
+          <li class="list">
+            <p class="list_name">Phone: </p>
+            <p class="name_text">+47 472 32 199</p>
+          </li>
+          <li class="list">
+            <p class="list_name">City: </p>
+            <p class="name_text">Kristiansand</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="about_skills">
+        <div class="skills_background" id="javascript_background">
+          <p class="skills_name">Javascript</p>
+        </div>
+        <div class="skills_background" id="html_background">
+          <p class="skills_name">HTML</p>
+        </div>
+        <div class="skills_background" id="css_background">
+          <p class="skills_name">CSS</p>
+        </div>
+        <div class="skills_background" id="game_background">
+          <p class="skills_name">Game dev</p>
+        </div>
+        <div class="skills_background" id="art_background">
+          <p class="skills_name">Digital art</p>
+        </div>
+      </div>
+    </div>
+
+    <a class="cv_button" href="">View CV</a>
+  </main>
+</body>
+</html>
