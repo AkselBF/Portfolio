@@ -18,13 +18,45 @@ h2 {
   padding-top: 20px;
 }
 
+
+/*
+  Text setup
+*/
+
+.skill_text {
+  width: 76%;
+  margin: auto;
+  padding: 10px 0 50px 0;
+}
+
 @media (min-width: 800px) {
+  .text_name {
+    text-align: center;
+  }
+
+  .skill_text {
+    width: 60%;
+    padding: 30px 0 50px 0;
+  }
+
   .skillset_text .dark_light {
     margin-top: 10px;
   }
 }
 
+@media (min-width: 1286px) {
+  .skill_text {
+    width: 40%;
+  }
+}
+
 
 /*
-  Text setup
+  Skills section
 */
+
+.skillset_skills {
+  padding-top: 10px;
+  width: 100%;
+  background: linear-gradient(#E40F02, #FF6E1D);
+}
