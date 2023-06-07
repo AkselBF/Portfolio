@@ -60,3 +60,11 @@ p, li {
 a {
   text-decoration: none;
 }
+
+
+/*
+  Scrollbar
+*/
+::-webkit-scrollbar-track {
+  background: transparent;
+}

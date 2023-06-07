@@ -1,3 +1,72 @@
 @import url(general.css);
 @import url(menu.css);
 @import url(layout.css);
+
+main {
+  width: 100%;
+  margin: -10px 0 0 0;
+  padding: 0;
+}
+
+/* Colors */
+h2, h3 {
+  color: #FFE999;
+}
+
+/* Logo adjust */
+.contact {
+  padding-top: 20px;
+}
+
+@media (min-width: 800px) {
+  .contact .dark_light {
+    margin-top: 10px;
+  }
+}
+
+
+/*
+  Top text
+*/
+.contact_text {
+  text-align: center;
+  margin: 60px auto 40px auto;
+}
+
+
+/*
+  Contacts
+*/
+.contact_sections {
+  margin: 100px auto;
+}
+
+.section {
+  text-align: center;
+}
+
+.fa-phone, .fa-envelope, .fa-location-dot {
+  margin-bottom: 40px;
+  margin-right: 0;
+  justify-content: center;
+}
+
+.desc {
+  margin-bottom: -10px;
+}
+
+.info {
+  margin-bottom: 80px;
+}
+
+@media (min-width: 1200px) {
+  .contact_sections {
+    display: flex;
+    flex-direction: row;
+    margin: 120px auto;
+  }
+
+  .section {
+    margin: auto;
+  }
+}
