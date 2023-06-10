@@ -132,11 +132,14 @@ h2 {
 
 /* Bottom circle */
 .skill_circle {
-  margin: 20px auto -100px auto;
+  margin: 0 auto;
   height: 120px;
   width: 80%;
-  border-top: 8px solid #000000;
-  border-right: 8px solid #000000;
-  border-left: 8px solid #000000;
-  border-radius: 10rem 10rem 0 0;
+  border: 8px solid #000000;
+  border-radius: 50%;
+  border-bottom: none;
+  background-color: transparent;
+  position: relative;
+  bottom: -20px;
+  z-index: 1;
 }
