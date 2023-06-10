@@ -78,6 +78,7 @@ h2 {
   border: 6px solid #ffffff;
   border-radius: 300px;
   width: 150px;
+  z-index: 99;
 }
 
 .fa-code {
@@ -102,7 +103,7 @@ h2 {
 
 /* Arrows */
 .fa-chevron-left, .fa-chevron-right {
-  padding: 20px 32px;
+  padding: 50px 32px;
   border-top: 5px solid #ffffff;
   border-bottom: 5px solid #ffffff;
   font-size: 70px;
@@ -110,19 +111,32 @@ h2 {
   background-color: #000000;
   margin-top: -150px;
   cursor: pointer;
+  z-index: 100;
 }
 
 .fa-chevron-left {
   border-right: 5px solid #ffffff;
-  border-top-right-radius: 100%;
-  border-bottom-right-radius: 100%;
+  border-top-right-radius: 300px;
+  border-bottom-right-radius: 300px;
   float: left;
 }
 
 .fa-chevron-right {
   border-left: 5px solid #ffffff;
-  border-top-left-radius: 100%;
-  border-bottom-left-radius: 100%;
+  border-top-left-radius: 300px;
+  border-bottom-left-radius: 300px;
   float: right;
   margin-right: 0;
+}
+
+
+/* Bottom circle */
+.skill_circle {
+  margin: 20px auto -100px auto;
+  height: 120px;
+  width: 80%;
+  border-top: 8px solid #000000;
+  border-right: 8px solid #000000;
+  border-left: 8px solid #000000;
+  border-radius: 10rem 10rem 0 0;
 }
