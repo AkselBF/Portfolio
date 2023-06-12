@@ -40,9 +40,9 @@ Made in Visual Studio Code with:
 In order to use the website, You need to clone and install it first.
 
 1. Clone the repo:
-git clone
+
 ```bash
-[](https://github.com/AkselBF/Portfolio.git)
+git clone https://github.com/AkselBF/Portfolio.git
 ```
 
 2. Install the dependencies
