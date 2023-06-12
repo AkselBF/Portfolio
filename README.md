@@ -45,14 +45,18 @@ In order to use the website, You need to clone and install it first.
 git clone https://github.com/AkselBF/Portfolio.git
 ```
 
-2. Install the dependencies
+2. Install the dependencies:
+```bash
 npm install
+```
 
 ### Running
 
 To run the site, run the following commands:
 
-npm run start 
+```bash
+npm run start
+```
 
 ##
 
