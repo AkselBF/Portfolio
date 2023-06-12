@@ -1,6 +1,6 @@
 # Portfolio 1
 
-![alt text](portfolio_image.PNG)
+![alt text](Images/portfolio_image.PNG)
 
 ## A collection of my past projects, big or small.
 
