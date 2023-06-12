@@ -15,3 +15,5 @@ There are five pages in my portfolio:
 * Projects
 * Skillset
 * Contact
+
+All my projects can be found in "Projects".
