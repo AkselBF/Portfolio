@@ -1,6 +1,10 @@
-# Portfolio
+# Portfolio 1
 
-## A collection of my previous projects, big or small.
+![alt text](portfolio_image.PNG)
+
+## A collection of my past projects, big or small.
+
+### description
 
 My portfolio contains several types of projects I'm proud of, big or small. 
 There are namely three types of projects:
@@ -17,3 +21,14 @@ There are five pages in my portfolio:
 * Contact
 
 All my projects can be found in "Projects".
+
+### Built with
+
+Made in Visual Studio Code with:
+* HTML
+* CSS
+* Javascript
+
+### Contact
+
+Contact information about me is mostly located in "Contact" in the portfolio
