@@ -22,13 +22,13 @@ There are five pages in my portfolio:
 
 All my projects can be found in "Projects".
 
-### Built with
+## Built with
 
-Made in Visual Studio Code with:
+### Made in Visual Studio Code with:
 * HTML
 * CSS
 * Javascript
 
-### Contact
+## Contact
 
 Contact information about me is mostly located in "Contact" in the portfolio
