@@ -24,7 +24,7 @@ All my projects can be found in "Projects".
 
 ## 
 
-### Built with
+### Build:
 
 Made in Visual Studio Code with:
 * HTML
